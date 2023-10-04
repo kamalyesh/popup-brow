@@ -24,7 +24,7 @@ function openPopup() {
   document.getElementById("status").innerText = "new popup opened"
   const left = document.body.clientLeft + (window.innerWidth * 0.5) - 100
   const top = document.body.clientTop + (window.innerHeight * 0.5) - 75
-  popup = window.open("/popup/popup.html", "_blank", `height=500,width=500,left=${left},top=${top},resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no, status=yes`);
+  popup = window.open("./popup", "_blank", `height=500,width=500,left=${left},top=${top},resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no, status=yes`);
   popup.window.addEventListener("beforeunload", handlePopupClosed)
   popup.window.log = log
 }
