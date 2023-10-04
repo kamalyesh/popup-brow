@@ -7,6 +7,6 @@
     "start": "live-server ./public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "kkamalyesh",
+  "author": "kamalyesh",
   "license": "ISC"
 }
